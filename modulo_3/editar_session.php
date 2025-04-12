@@ -3,5 +3,5 @@
     session_start();
    $_SESSION['idade'] = 33; 
 
-   print_r($_SESSION);
+   print_r($_SESSION);  
 ?>
