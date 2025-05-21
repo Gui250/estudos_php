@@ -1,20 +1,25 @@
+<!-- index.php -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
 <body>
+    <h2>Login</h2>
     <form method="post" action="login.php">
-        <label for="username">Usuário:</label>
-        <input type="text" name="usuario"> <br/> 
-        <label for="password">Senha:</label>
-        <input type="password" name="senha"> <br/>
+        <label>Usuário:</label>
+        <input type="text" name="usuario"><br><br>
+
+        <label>Senha:</label>
+        <input type="password" name="senha"><br><br>
+
+        <label>Tema:</label>
         <select name="tema">
-            <option value="escuro">escuro</option>
-            <option value="claro">claro</option>
+            <option value="escuro">Escuro</option>
+            <option value="claro">Claro</option>
         </select>
+
         <input type="submit" value="Entrar">
     </form>
 </body>
